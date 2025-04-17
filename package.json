@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/index.jsx --bundle --outfile=resources/bundle.js --platform=browser --format=esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zebar": "^2.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2"
+  }
+}
